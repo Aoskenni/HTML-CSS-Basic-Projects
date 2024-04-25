@@ -1,0 +1,47 @@
+.div-body {
+  background-color: #f1f1f1;
+}
+body {
+  font-family: -apple-system;
+  color: #333;
+  font-size: 17;
+}
+img {
+  width: 900px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+#img-div {
+  text-align: center;
+  background-color: #ffffff;
+margin: 0 20 0 20;
+}
+h1, h2, p {
+  text-align: center;
+}
+ul {
+  margin: 0 10rem 0 10rem;
+}
+li {
+  margin: 10px 0 10px 0;
+}
+h1 {
+  margin: 1.5rem 0 0 0;
+}
+h2 {
+  margin: 3rem 0 3.5rem 0;
+}
+.p1 {
+  margin: 3rem 0 0 0;
+}
+.p2 {
+  margin: 0 0 3rem 0;
+}
+.p3 {
+  font-size:20;
+  padding: 0 0 2rem 0;
+}
+li {
+  line-height: 1.6rem
+}

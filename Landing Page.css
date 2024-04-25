@@ -1,0 +1,167 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 100px;
+  position: fixed;
+  top: 25px;
+  right: 60px;
+}
+nav {
+  margin: 0;
+  padding: 0;
+}
+#header-img {
+  position: fixed;
+  top: 25px;
+} 
+.header-h1 {
+  margin-top: 80px;
+  text-align: center;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+#email {
+  width: 250px;
+  height: 25px;
+  margin-bottom: 15px;
+}
+#submit {
+  height: 30px;
+  width: 150px
+
+}
+.nav-color {
+  height: 12%;
+  width: 100%;
+  background-color:#fff;
+  position: fixed;
+  top: 0;
+  margin-left: -8px;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+#submit {
+  background-color: #F6BE00;
+  font-weight: 1000;
+}
+#logo-services1, #logo-services2, #logo-services3 {
+  width: 70px;
+  margin-top: 30px
+}
+.services, .h-s {
+  display: flex;
+  margin-left: 150px;
+}
+.h-s {
+  margin-top: -70px;
+  margin-bottom: -35px;
+}
+#logo-services1 {
+  margin-top: 70px;
+}
+.img-services {
+  margin-left: 120px;
+}
+.iframe {
+  margin-top: 70px;
+  text-align: center;
+  
+}
+.div-features {
+  border: 1px solid #000;
+  width: 280px;
+  height: 350px;
+  margin: 0 10px 0 10px;
+}
+.div-container {
+  display: flex;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+}
+.packages {
+  background-color: #ddd;
+  height: 50px;
+  margin-top: 0;
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+#button {
+  margin-top: 30px;
+  width: 100px;
+  height: 35px;
+  background-color: #F4bc1c;
+}
+.footer {
+  background-color: #ddd;
+  margin-top: 50px;
+  height: 100px;
+  margin-bottom: 1px
+}
+.footer > a {
+  float: right; 
+  padding-right: 50px;
+  text-decoration: none;
+  color: black;
+  margin-top: 20
+
+  }
+  .footer > p {
+    padding-top: 70px;
+    text-align: center;
+  }
+  a:hover {
+    color: red;
+  }
+  a:active {
+    color: blue;
+  }
+  h1, h2 {
+    font-size: 25px;
+  }
+  @media only screen and (max-width: 720px) {
+ .div-container {
+  display: block;
+  padding: 0 180px 0 180px;
+}  
+.div-features {
+  margin: 10px 0 10px 0;
+} 
+.flex-container {
+  display: flex;
+  flex-direction: column-reverse;
+  position: fixed;
+  top: 65px;
+  gap: 0;
+  line-height: 1.5;
+  left: 300px;
+  
+}
+header-img {
+  position: fixed;
+  left: 
+}
+.header-h1 {
+  margin-top: 150px;
+  text-align: center;
+}
+.nav-color {
+  height: 140px;
+  padding-left: 200px;
+  
+}
+.img-services {
+  margin-left: 70px;
+  margin-right: 120px
+}
+}
